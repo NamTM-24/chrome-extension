@@ -1,4 +1,4 @@
-console.log("🚀 Weaverse Navigator loaded!");
+console.log(" Weaverse Navigator loaded!");
 
 function getDisplayname(click){
   const componentElement = click.closest('[data-id]');
@@ -41,7 +41,6 @@ document.addEventListener("click", (e) => {
         const projectPath = result.projectPath;
         console.log('Project Path:', projectPath);
         
-        // Gửi message kèm projectPath
         chrome.runtime.sendMessage({
           action: 'openFile',
           displayName: normalized,
