@@ -1,0 +1,9 @@
+{
+  "name": "com.weaverse.navigator",
+  "description": "Weaverse Navigator Native Host",
+  "path": "D:\\WeaverseTraining\\Final\\native-host\\windows\\host.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://fhlahlicodjbleodoifbjipnaejkbhij/"
+  ]
+}

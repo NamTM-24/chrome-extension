@@ -1,0 +1,9 @@
+# Dependencies
+node_modules/
+
+# Test files
+test/
+
+# Package files
+package.json
+package-lock.json

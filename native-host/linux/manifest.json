@@ -1,0 +1,9 @@
+{
+  "name": "com.weaverse.navigator",
+  "description": "Weaverse Navigator Native Host",
+  "path": "REPLACE_PATH",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://fhlahlicodjbleodoifbjipnaejkbhij/"
+  ]
+}

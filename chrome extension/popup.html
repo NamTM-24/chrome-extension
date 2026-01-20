@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weaverse Navigator</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>
+        <span class="icon">⚡</span>
+        Weaverse Navigator
+      </h1>
+      <p>Configure your project path</p>
+    </div>
+    
+    <div class="card">
+      <div class="form-group">
+        <label for="projectPath">Project Path</label>
+        <textarea 
+          id="projectPath" 
+          placeholder="D:\Projects\my-hydrogen-storefront"
+          spellcheck="false"
+          rows="2"
+        ></textarea>
+        <p class="hint">💡 You can type the path manually or click Browse</p>
+      </div>
+      
+      <div class="actions">
+        <button id="browse" class="btn-browse">
+          <span>📁</span> Browse Folder
+        </button>
+        <button id="save" class="btn-save">
+          <span>💾</span> Save Configuration
+        </button>
+      </div>
+    </div>
+    
+    <div class="info">
+      <strong>📖 How to use:</strong>
+      <ol>
+        <li>Enter your project path or click Browse</li>
+        <li>Click Save to save your configuration</li>
+        <li>Go to Weaverse Studio</li>
+        <li>Press <code>Ctrl+Click</code> on any component to open it</li>
+      </ol>
+    </div>
+  </div>
+  
+  <script src="scripts/popup.js"></script>
+</body>
+</html>
